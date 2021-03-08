@@ -4,46 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>IP4(pizza)</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
     <div class="container">
        <h1>WELCOME TO PIZZA HAVEN.PLEASE PLACE ORDER BELOW.</h1>
        <div class="calculator">
            <form action="">
-               <div class="paragraph">
-                   <p>Enter what size of pizza you want to purchase.</p>
-                </div>
-               <select id="size">
+               <div class="para">
+                 <p>Enter what size of pizza you want to purchase.</p>
+                
+                 <select id="size">
                    <option value="900">Large</option>
                    <option value="700">Medium</option>
                    <option value="500">Small</option>
-               </select>
+                 </select>
+              </div>
                <div class="para">
-                   <p>Choose your favorite kind of crust.</p>
-               </div>
-               <select id="crust">
+                 <p>Choose your favorite kind of crust.</p>
+               
+                 <select id="crust">
                    <option value="100">cripsy</option>
                    <option value="100">stuffed</option>
                    <option value="100">gluten-free</option>
-               </select>
+                 </select>
+               </div>
                <div class="para">
                    <p>Make favorite choice of topping</p>
-               </div>
-               <select id="topping">
-                    <option value="">Pepperoni & Cheese</option>
-                    <option value="">Bacon & Pineapple</option>
-                    <option value="">Chicken & Barbeque</option>
-                    <option value="">Pineapple & Black Olive</option>
-               </select>
+               
+                   <select id="topping">
+                      <option value="450">Pepperoni & Cheese</option>
+                      <option value="350">Bacon & Pineapple</option>
+                      <option value="250">Chicken & Barbeque</option>
+                      <option value="150">Pineapple & Black Olive</option>
+                   </select>
+                   <p>Select number of pizza to order</p>
+                   <input type="number" min="0">
+              </div>
                <p class="btn"><button type="button">Place Order!</button></p>
                <div class="para">
-                   <p>Would you like your pizza delivered?</p>
-               </div>
-               <select id="delivery">
-                   <option value="yes">YES</option>
-                   <option value="no">NO</option>
-               </select>
+                  <p>Would you like your pizza delivered?</p>
+                    <select id="delivery">
+                    <option class="input" value="yes">YES</option>
+                    <option class="input" value="no">NO</option>
+                  </select>
+               <div>
                
 
 
