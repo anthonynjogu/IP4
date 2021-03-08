@@ -1,1 +1,55 @@
-!
+body {
+    font-family: Helvetica;
+    background-image: url(image/piz3.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    height: 600px;
+    width: 400px;
+    margin: 100px auto;
+    margin-top: -1px;
+    background: rgb(0, 0, 0, 0.6);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  }
+  
+  h1 {
+    background: #1F030C;
+    color: white;
+    margin: 0px auto;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .para {
+    margin-left: 20%;
+    color: azure;
+  }
+  .input{
+      margin-left: 40%;
+  }
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    margin-right: 30%;
+    background: #1F030C;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+  }
+  
